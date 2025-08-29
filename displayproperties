@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>displayproperties</title>
+ 
+ <style>
+      
+       .one{
+	        width:350px;
+			height:400px;
+	        background-color:aqua;
+		    display:inline-block;
+		    justify-content:space-around;
+	        border:4px green solid;
+	        margin:5px;
+			
+			letter-spacing:2px;
+			text-align:center;
+	  	   }
+	  img {
+	  	 width:100%;
+		 	    }
+.two{
+width:350px;
+height:400px;
+background-color:aqua;
+border:4px red solid;
+display:inline-block;
+justify-content:space-around;
+margin:5px;
+letter-spacing:2px;
+text-align:center;
+}
+img{
+     width:100%;
+                  }
+
+.head{
+font-color:white;
+text-align:center;
+text-decoration:underline;
+font-size:25px;
+text-shadow:2px 4px 10px yellow;
+letter-spacing:10px;
+}
+.three{
+height:400px;
+width:350px;
+border:4px red solid;
+display:inline-block;
+margin:5px;
+justify-content:space-around;
+background-color:aqua;
+letter-spacing:2px;
+text-align:center;
+}				
+	img{
+	width:100%
+	}			
+		.four{
+		height:400px;
+		width:350px;
+		border:4px red solid;
+		display:inline-block;
+		justify-content:space-around;
+		text-align:center;
+		background-color:aqua;
+		margin:5px;
+		}
+		img{
+		width:100%
+		
+		
+		}		
+				
+	   </style>
+</head>
+<body style="background-image:url(https://images.pexels.com/photos/220072/pexels-photo-220072.jpeg");>
+
+
+<div class="head">
+<h1 style="color:white";>TOP CARS</u></h1>
+</div>
+
+
+<div class="one">
+<image src="https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg"/>
+<div class="vertical-content">
+<h1><u>LANDROVER</u></h1>
+<p><u> MODEL:</u>SUV</p>
+<p><u>PRICE:</u>400000</P>
+<p><u>TYPE:</u>DIESEL</p>
+</div>
+</div>
+
+
+<div class="two">
+<image src="https://images.pexels.com/photos/244206/pexels-photo-244206.jpeg"/>
+<div class="vertical-content">
+<h1><u>AUDI</u></h1>
+<p><u> MODEL:</u>RS3</p>
+<p><u>PRICE:</u>4000000</P>
+<p><u>TYPE:</u>DIESEL</p>
+</div>
+</div>
+
+<div class="three">
+<image src="https://c.ndtvimg.com/2024-09/ijgphfk_mahindra-thar-roxx-4x4_625x300_25_September_24.jpg"/>
+<div class="vertical-content">
+<h1><u>THAR</u></h1>
+<p><u> MODEL:</u>ROCKS</p>
+<p><u>PRICE:</u>1600000</P>
+<p><u>TYPE:</u>DIESEL</p>
+</div>
+</div>
+
+<div class="four">
+<img src="https://images.pexels.com/photos/6726680/pexels-photo-6726680.jpeg"/>
+<div class="vertical-content">
+<h1><U>SCORPIO</U></h1>
+<p><u> MODEL:</u>SCORPIO123</p>
+<p><u>PRICE:</u>1000000</P>
+<p><u>TYPE:</u>DIESEL</p>
+</div>
+</div>
+
+
+</body>
+</html>
