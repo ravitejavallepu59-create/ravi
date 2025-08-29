@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+     <title>my page</title>
+</head>
+<body>
+      <form  action="a.html">
+	 <table align="center">
+	 <caption>PLEASE ENTER THE details</caption>
+	 <tr>
+<td><label>NAME:</label></td>
+<td><input type="text" name="t1"/> 
+<br></td>
+</tr>
+
+
+<tr>
+<td><label>AGE:</label></td>
+<td><input type="number" name="t2"/>
+<br></td>
+ </tr>
+ 
+ 
+ <tr>
+<td><label>PASSWORD:</label></td>
+<td><input type="password" name="t3"/>
+<br></td>
+ </tr>
+ 
+ 
+ <tr>
+<td><label>MARITIAL STATUS</label></td>
+<td><input type="checkbox" name="t4" value="single"/>SINGLE</td>
+<td><input type="checkbox" name="t4" value="single"/>MARRIED
+<br></td>
+</tr>
+
+<tr>
+<td><label>GENDER</label></td>
+<td><input type="radio" name="t5" value="male"/>MALE</td>
+<td><input type="radio" name="t5" value="female"/>FEMALE <br></td>
+</tr>
+ 
+ <tr>
+<td><label>ADDRESS:</label></td>
+<td><textarea cols="10" rows="5"></textarea><br></td>
+</tr>
+
+<tr>
+<td>
+<label>QUALIFICATION:</label>
+</td>
+<td><select name="t6">
+<option  value="NONE"> NONE</option>
+<option  value="B.tech">B.TECH</option>
+<option  value="B.sc">B.SC</option>
+<option  value="B.com">B.COM</option>
+</select></td>
+<br>
+ </tr> 
+ 
+<tr><td><input type="submit" value="submit"/></td></tr>
+<tr><td><input type="reset" value="reset"/></tr></td>
+</table>
+</form>
+</body>
+</html>
