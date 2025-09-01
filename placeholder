@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <Title>placeholder</Title> 
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="placeholder-glow">
+<div class="placeholder w-50 bg-primary"> </div>
+
+<div class="placeholder w-75 bg-warning"> </div>
+</div>
+
+<div class="placeholder w-25 bg-danger"> </div>
+</div>
+</div>
+
+<div class="card w-50">
+<div class="card-header">
+    <div class="w-100 placeholder"style="height: 300px;"> </div>  
+</div>
+
+<div class="card-body placeholder-glow">
+    <div class="placeholder w-50"style=height:25px;></div>
+ <div class="placeholder w-50"style=height:25px;></div>
+ <div class="placeholder w-75"style=height:25px;></div>
+ <div class="placeholder w-25"style=height:25px;></div>
+ <div class="placeholder w-50"style=height:25px;></div>
+ <div class="placeholder w-25"style=height:25px;></div>
+  <div class="placeholder w-50"style=height:25px;></div>
+ <div class="placeholder w-25"style=height:25px;></div>
+</div>
+
+<div class="card-footer btn-group placeholder-glow">
+    <button class="btn bg-primary w-50 placeholder">SUBSCRIBE</button>
+    <button class="btn bg-success w-50 placeholder">TURN ON </button>
+</div>
+</div>
+</body>
+</html>
